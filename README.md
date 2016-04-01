@@ -7,4 +7,4 @@ Per gestire l’accesso ai servizi pubblici e privati che utilizzano il sistema 
 Il bottone è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna con variabile) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server. 
 La pagina di accesso dovrà essere “mobile first” e utilizzabile su ogni tipologia di dispositivo.
 
-Il sistema richiede richiede Jquery 1.8+ e contiene parti di codice di jQuery Bootstrap-style Dropdowns (https://github.com/claviska/jquery-dropdown).
+Il sistema richiede Jquery 1.8+.
