@@ -1,6 +1,6 @@
 # SPID - Sistema Pubblico di Identità Digitale
 
-## Aggiornamento IDP Sielte
+## Aggiornamento IDP Sielte ID
 
 #### SPID SP BUTTON: VERSIONE GET
 ##### Aggiungere all'elenco IDP dentro <ul id="spid-idp-list-small-root-get"...
