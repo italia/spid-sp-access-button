@@ -1,43 +1,64 @@
 # SPID - Sistema Pubblico di Identità Digitale
-## Repository componenti
 
+## Componenti
 Per gestire l’accesso ai servizi pubblici e privati che utilizzano il sistema SPID, si rende necessario, sia per una questione di user experience che di immagine del sistema, la standardizzazione delle interfacce, della comunicazione e dell’utilizzo del logo SPID.
 
-## SPID SP ACCESS BUTTON
-Il bottone è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna con variabile) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server. 
-La pagina di accesso dovrà essere “mobile first” e utilizzabile su ogni tipologia di dispositivo.
+
+## SPID Sp Access Button
+Il bottone è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server. 
+La pagina di accesso dovrà essere "mobile first" e utilizzabile su ogni tipologia di dispositivo.
 
 Il sistema richiede Jquery 1.8+.
 
-## Aggiornamento IDP Sielte ID
 
-#### SPID SP BUTTON: VERSIONE GET
-##### Aggiungere all'elenco IDP dentro <ul id="spid-idp-list-small-root-get"...
+## Struttura del file system
 ```
-<li class="spid-idp-button-link">
-    <a href="#"><span class="spid-sr-only">Sielte ID</span><img src="img/spid-idp-sielteid.svg" onerror="this.src='img/spid-idp-sielteid.png'; this.onerror=null;" alt="Sielte ID" /></a>
-</li>
-```
+spid-sp-access-button/
+│
+├── src/
+│   ├── spid-sp-access-button.html
+│   ├── css
+│   │   ├── spid-sp-access-button.min.css
+│   ├── img
+│   │   ├── spid-ico-circle-bb.png
+│   │   ├── spid-ico-circle-bb.svg
+│   │   ├── spid-idp-arubaid.png
+│   │   ├── spid-idp-arubaid.svg
+│   │   ├── spid-idp-infocertid.png
+│   │   ├── spid-idp-infocertid.svg
+│   │   ├── spid-idp-posteid.png
+│   │   ├── spid-idp-posteid.svg
+│   │   ├── spid-idp-sielteid.png
+│   │   ├── spid-idp-sielteid.svg
+│   │   ├── spid-idp-timid.png
+│   │   ├── spid-idp-timid.svg
+│   └── js
+│       ├── jquery.min.js
+│       ├── spid-sp-access-button.min.js
 
-#### SPID SP BUTTON: VERSIONE POST
-##### Aggiungere all'elenco IDP dentro <ul id="spid-idp-list-medium-root-post"...
-```
-<li class="spid-idp-button-link">
-    <button class="idp-button-idp-logo" name="sielte_id" type="submit"><span class="spid-sr-only">Sielte ID</span><img class="spid-idp-button-logo" src="img/spid-idp-sielteid.svg" onerror="this.src='img/spid-idp-sielteid.png'; this.onerror=null;" alt="Sielte ID" /></button>
-</li>
-```
 
-## Aggiornamento link
-#### SPID SP BUTTON: TUTTE LE VERSIONI
-##### Modificare il collegamento a "Non hai SPID?"
-```
-<li class="spid-idp-support-link">
-    <a href="http://www.spid.gov.it/richiedi-spid">Non hai SPID?</a>
-</li>
-```
+## Aggiornamenti
 
-## Download immagini Sielte ID
-```
-https://github.com/italia-it/spid-sp-access-button/blob/master/img/spid-idp-sielteid.svg
-https://github.com/italia-it/spid-sp-access-button/blob/master/img/spid-idp-sielteid.png
-```
+# v1.3 (05/02/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.3.md)
+- Aggiunta ARUBA ID
+- Aggiunta data-idp su punti elenco
+- Modifica link per informazioni e supporto
+
+# v1.3 (19/09/2016) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.2.md)
+- Aggiunta SIELTE ID
+- Correzione link su dropdown
+
+# v1.2 (01/04/2016)
+- Modifica loghi POSTE ID e TIM ID
+
+# v1.1 (01/04/2016)
+- Correzione css per compatibilità bottone
+
+
+## Metadata IDP SPID
+
+[Aruba ID - https://loginspid.aruba.it/metadata](https://loginspid.aruba.it/metadata)
+[Infocert ID - https://identity.infocert.it/metadata/metadata.xml](https://identity.infocert.it/metadata/metadata.xml)
+[Poste ID - http://posteid.poste.it/jod-fs/metadata/metadata.xml](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
+[Sielte ID - https://identity.sieltecloud.it/simplesaml/metadata.xml](https://identity.sieltecloud.it/simplesaml/metadata.xml)
+[Tim ID - https://login.id.tim.it/spid-services/MetadataBrowser/idp](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
