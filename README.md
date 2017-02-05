@@ -44,15 +44,15 @@ spid-sp-access-button/
 - Aggiunta data-idp su punti elenco
 - Modifica link per informazioni e supporto
 
-### v1.3 (19/09/2016) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.2.md)
+### v1.2 (19/09/2016) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.2.md)
 - Aggiunta SIELTE ID
 - Correzione link su dropdown
 
-### v1.2 (01/04/2016)
-- Modifica loghi POSTE ID e TIM ID
-
 ### v1.1 (01/04/2016)
 - Correzione css per compatibilità bottone
+- Modifica loghi POSTE ID e TIM ID
+
+### v1.0 (01/04/2016)
 
 
 ## Metadata IDP SPID
