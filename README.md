@@ -35,7 +35,7 @@ spid-sp-access-button/
 │   └── js
 │       ├── jquery.min.js
 │       ├── spid-sp-access-button.min.js
-
+```
 
 ## Aggiornamenti
 
