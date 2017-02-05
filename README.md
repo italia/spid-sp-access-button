@@ -39,26 +39,26 @@ spid-sp-access-button/
 
 ## Aggiornamenti
 
-# v1.3 (05/02/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.3.md)
+### v1.3 (05/02/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.3.md)
 - Aggiunta ARUBA ID
 - Aggiunta data-idp su punti elenco
 - Modifica link per informazioni e supporto
 
-# v1.3 (19/09/2016) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.2.md)
+### v1.3 (19/09/2016) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.2.md)
 - Aggiunta SIELTE ID
 - Correzione link su dropdown
 
-# v1.2 (01/04/2016)
+### v1.2 (01/04/2016)
 - Modifica loghi POSTE ID e TIM ID
 
-# v1.1 (01/04/2016)
+### v1.1 (01/04/2016)
 - Correzione css per compatibilità bottone
 
 
 ## Metadata IDP SPID
 
-[Aruba ID - https://loginspid.aruba.it/metadata](https://loginspid.aruba.it/metadata)
-[Infocert ID - https://identity.infocert.it/metadata/metadata.xml](https://identity.infocert.it/metadata/metadata.xml)
-[Poste ID - http://posteid.poste.it/jod-fs/metadata/metadata.xml](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
-[Sielte ID - https://identity.sieltecloud.it/simplesaml/metadata.xml](https://identity.sieltecloud.it/simplesaml/metadata.xml)
-[Tim ID - https://login.id.tim.it/spid-services/MetadataBrowser/idp](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
+####[Aruba ID - https://loginspid.aruba.it/metadata](https://loginspid.aruba.it/metadata)
+####[Infocert ID - https://identity.infocert.it/metadata/metadata.xml](https://identity.infocert.it/metadata/metadata.xml)
+####[Poste ID - http://posteid.poste.it/jod-fs/metadata/metadata.xml](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
+####[Sielte ID - https://identity.sieltecloud.it/simplesaml/metadata.xml](https://identity.sieltecloud.it/simplesaml/metadata.xml)
+####[Tim ID - https://login.id.tim.it/spid-services/MetadataBrowser/idp](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
