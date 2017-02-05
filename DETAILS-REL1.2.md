@@ -27,8 +27,8 @@
 
 #### Download immagini Sielte ID
 ```
-https://github.com/italia-it/spid-sp-access-button/blob/master/img/spid-idp-sielteid.svg
-https://github.com/italia-it/spid-sp-access-button/blob/master/img/spid-idp-sielteid.png
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-sielteid.svg
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-sielteid.png
 ```
 
 
