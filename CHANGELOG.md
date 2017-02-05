@@ -1,9 +1,9 @@
-### v1.3 (05/02/2017) - [Accedi ai dettagli delle modifiche](../DETAILS-REL-1.3.md)
+### v1.3 (05/02/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL-1.3.md)
 - Aggiunta ARUBA ID
 - Aggiunta data-idp su punti elenco
 - Modifica link per informazioni e supporto
 
-### v1.3 (19/09/2016) - [Accedi ai dettagli delle modifiche](../DETAILS-REL-1.2.md)
+### v1.3 (19/09/2016) - [Accedi ai dettagli delle modifiche](DETAILS-REL-1.2.md)
 - Aggiunta SIELTE ID
 - Correzione link su dropdown
 
