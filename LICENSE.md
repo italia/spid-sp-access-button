@@ -1,10 +1,10 @@
 ## Licenze
 
-Il font Titillium in `css/spid-sp-access-button.min.css` è di [Accademia di Belle Arti Urbino] (http://www.campivisivi.net/titillium/) con licenza [SIL Open Font License 1.1]
+Il font Titillium in [`css/spid-sp-access-button.min.css`](./src/css/spid-sp-access-button.min.css#L1) è di [Accademia di Belle Arti Urbino](http://www.campivisivi.net/titillium/) con licenza [SIL Open Font License 1.1](http://scripts.sil.org/OFL)
 
-Il file `js/jquery.min.js` è di [The jQuery Foundation] (https://jquery.com/), copyright The jQuery Foundation, con licenza [MIT].
+Il file [`js/jquery.min.js`](./src/js/jquery.min.js) è di [The jQuery Foundation](https://jquery.com/), copyright The jQuery Foundation, con licenza [MIT](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
 
-Parti del codice in `css/spid-sp-access-button.min.css` e `js/spid-sp-access-button.min.js` sono del progetto jQuery Bootstrap-style Dropdowns di [A Beautiful Site, LLC] (http://abeautifulsite.net/) con licenza [MIT].
+Parti del codice in [`css/spid-sp-access-button.min.css`](./src/css/spid-sp-access-button.min.css) e [`js/spid-sp-access-button.min.js`](./src/js/spid-sp-access-button.min.js) sono del progetto jQuery Bootstrap-style Dropdowns di [A Beautiful Site, LLC](http://abeautifulsite.net/) con licenza [MIT](https://github.com/claviska/jquery-dropdown).
 
 I loghi dei servizi degli Identity Provider sono marchi registrati dalle rispettive aziende.
 
@@ -24,4 +24,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## Il resto del progetto è di pubblico dominio
 
-[Legal Code (leggi il testo completo)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
+Legal Code - [testo completo](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
