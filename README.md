@@ -5,7 +5,7 @@ Per gestire l’accesso ai servizi pubblici e privati che utilizzano il sistema 
 
 
 ## SPID Sp Access Button
-Il bottone è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server. 
+Il bottone è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server.
 La pagina di accesso dovrà essere "mobile first" e utilizzabile su ogni tipologia di dispositivo.
 
 Il sistema richiede Jquery 1.8+.
@@ -56,9 +56,8 @@ spid-sp-access-button/
 
 
 ## Metadata IDP SPID
-
-####[Aruba ID - https://loginspid.aruba.it/metadata](https://loginspid.aruba.it/metadata)
-####[Infocert ID - https://identity.infocert.it/metadata/metadata.xml](https://identity.infocert.it/metadata/metadata.xml)
-####[Poste ID - http://posteid.poste.it/jod-fs/metadata/metadata.xml](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
-####[Sielte ID - https://identity.sieltecloud.it/simplesaml/metadata.xml](https://identity.sieltecloud.it/simplesaml/metadata.xml)
-####[Tim ID - https://login.id.tim.it/spid-services/MetadataBrowser/idp](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
+- [Aruba ID](https://loginspid.aruba.it/metadata)
+- [Infocert ID](https://identity.infocert.it/metadata/metadata.xml)
+- [Poste ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
+- [Sielte ID](https://identity.sieltecloud.it/simplesaml/metadata.xml)
+- [Tim ID](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
