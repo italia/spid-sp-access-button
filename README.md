@@ -26,10 +26,14 @@ spid-sp-access-button/
 │   │   ├── spid-idp-arubaid.svg
 │   │   ├── spid-idp-infocertid.png
 │   │   ├── spid-idp-infocertid.svg
+│   │   ├── spid-idp-namirialid.png
+│   │   ├── spid-idp-namirialid.svg
 │   │   ├── spid-idp-posteid.png
 │   │   ├── spid-idp-posteid.svg
 │   │   ├── spid-idp-sielteid.png
 │   │   ├── spid-idp-sielteid.svg
+│   │   ├── spid-idp-spiditalia.png
+│   │   ├── spid-idp-spiditalia.svg
 │   │   ├── spid-idp-timid.png
 │   │   ├── spid-idp-timid.svg
 │   └── js
@@ -38,6 +42,10 @@ spid-sp-access-button/
 ```
 
 ## Aggiornamenti
+
+### v1.4 (26/06/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.4.md)
+- Aggiunta Namirial ID
+- Aggiunta SPIDItalia Register.it
 
 ### v1.3 (05/02/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.3.md)
 - Aggiunta ARUBA ID
@@ -58,6 +66,8 @@ spid-sp-access-button/
 ## Metadata IDP SPID
 - [Aruba ID](https://loginspid.aruba.it/metadata)
 - [Infocert ID](https://identity.infocert.it/metadata/metadata.xml)
+- [Namirial ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
 - [Poste ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
 - [Sielte ID](https://identity.sieltecloud.it/simplesaml/metadata.xml)
+- [SPIDItalia Register.it](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
 - [Tim ID](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
