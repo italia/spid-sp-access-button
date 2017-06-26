@@ -66,8 +66,8 @@ spid-sp-access-button/
 ## Metadata IDP SPID
 - [Aruba ID](https://loginspid.aruba.it/metadata)
 - [Infocert ID](https://identity.infocert.it/metadata/metadata.xml)
-- [Namirial ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
+- [Namirial ID](https://idp.namirialtsp.com/idp/metadata)
 - [Poste ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
 - [Sielte ID](https://identity.sieltecloud.it/simplesaml/metadata.xml)
-- [SPIDItalia Register.it](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
+- [SPIDItalia Register.it](https://spid.register.it/login/metadata)
 - [Tim ID](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
