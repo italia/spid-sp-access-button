@@ -38,8 +38,8 @@
 
 #### Download immagini Namirial ID e SPIDItalia Register.it
 ```
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-namirialid.svg
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-namirialid.png
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-spiditalia.svg
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-spiditalia.png
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-namirialid.svg
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-namirialid.png
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-spiditalia.svg
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-spiditalia.png
 ```

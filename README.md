@@ -16,44 +16,76 @@ Il sistema richiede Jquery 1.8+.
 spid-sp-access-button/
 │
 ├── src/
-│   ├── spid-sp-access-button.html
-│   ├── css
-│   │   ├── spid-sp-access-button.min.css
-│   ├── img
-│   │   ├── spid-ico-circle-bb.png
-│   │   ├── spid-ico-circle-bb.svg
-│   │   ├── spid-idp-arubaid.png
-│   │   ├── spid-idp-arubaid.svg
-│   │   ├── spid-idp-infocertid.png
-│   │   ├── spid-idp-infocertid.svg
-│   │   ├── spid-idp-namirialid.png
-│   │   ├── spid-idp-namirialid.svg
-│   │   ├── spid-idp-posteid.png
-│   │   ├── spid-idp-posteid.svg
-│   │   ├── spid-idp-sielteid.png
-│   │   ├── spid-idp-sielteid.svg
-│   │   ├── spid-idp-spiditalia.png
-│   │   ├── spid-idp-spiditalia.svg
-│   │   ├── spid-idp-timid.png
-│   │   ├── spid-idp-timid.svg
-│   └── js
-│       ├── jquery.min.js
-│       ├── spid-sp-access-button.min.js
+│   ├── development
+│   │   ├── spid-sp-access-button.html
+│   │   ├── css
+│   │   │   ├── spid-sp-access-button.min.css
+│   │   ├── img
+│   │   │   ├── spid-ico-circle-bb.png
+│   │   │   ├── spid-ico-circle-bb.svg
+│   │   │   ├── spid-idp-arubaid.png
+│   │   │   ├── spid-idp-arubaid.svg
+│   │   │   ├── spid-idp-infocertid.png
+│   │   │   ├── spid-idp-infocertid.svg
+│   │   │   ├── spid-idp-intesaid.png
+│   │   │   ├── spid-idp-intesaid.svg
+│   │   │   ├── spid-idp-namirialid.png
+│   │   │   ├── spid-idp-namirialid.svg
+│   │   │   ├── spid-idp-posteid.png
+│   │   │   ├── spid-idp-posteid.svg
+│   │   │   ├── spid-idp-sielteid.png
+│   │   │   ├── spid-idp-sielteid.svg
+│   │   │   ├── spid-idp-spiditalia.png
+│   │   │   ├── spid-idp-spiditalia.svg
+│   │   │   ├── spid-idp-timid.png
+│   │   │   ├── spid-idp-timid.svg
+│   │   ├── js
+│   │   │   ├── jquery.min.js
+│   │   │   ├── spid-sp-access-button.min.js
+│   ├── development
+│   │   ├── spid-sp-access-button.html
+│   │   ├── css
+│   │   │   ├── spid-sp-access-button.min.css
+│   │   ├── img
+│   │   │   ├── spid-ico-circle-bb.png
+│   │   │   ├── spid-ico-circle-bb.svg
+│   │   │   ├── spid-idp-arubaid.png
+│   │   │   ├── spid-idp-arubaid.svg
+│   │   │   ├── spid-idp-infocertid.png
+│   │   │   ├── spid-idp-infocertid.svg
+│   │   │   ├── spid-idp-intesaid.png
+│   │   │   ├── spid-idp-intesaid.svg
+│   │   │   ├── spid-idp-namirialid.png
+│   │   │   ├── spid-idp-namirialid.svg
+│   │   │   ├── spid-idp-posteid.png
+│   │   │   ├── spid-idp-posteid.svg
+│   │   │   ├── spid-idp-sielteid.png
+│   │   │   ├── spid-idp-sielteid.svg
+│   │   │   ├── spid-idp-spiditalia.png
+│   │   │   ├── spid-idp-spiditalia.svg
+│   │   │   ├── spid-idp-timid.png
+│   │   │   ├── spid-idp-timid.svg
+│   │   ├── js
+│   │   │   ├── jquery.min.js
+│   │   │   ├── spid-sp-access-button.min.js
 ```
 
 ## Aggiornamenti
 
+### v1.5 (17/11/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.5.md)
+- Aggiunto Intesa ID
+
 ### v1.4 (26/06/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.4.md)
-- Aggiunta Namirial ID
-- Aggiunta SPIDItalia Register.it
+- Aggiunto Namirial ID
+- Aggiunto SPIDItalia Register.it
 
 ### v1.3 (05/02/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.3.md)
-- Aggiunta ARUBA ID
+- Aggiunto ARUBA ID
 - Aggiunta data-idp su punti elenco
 - Modifica link per informazioni e supporto
 
 ### v1.2 (19/09/2016) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.2.md)
-- Aggiunta SIELTE ID
+- Aggiunto SIELTE ID
 - Correzione link su dropdown
 
 ### v1.1 (01/04/2016)
@@ -64,8 +96,13 @@ spid-sp-access-button/
 
 
 ## Metadata IDP SPID
+### Metadata con tutti gli IDP SPID
+- [IDP SPID](https://registry.spid.gov.it/metadata/idp/spid-entities-idps.xml)
+
+### Metadata singoli IDP SPID
 - [Aruba ID](https://loginspid.aruba.it/metadata)
 - [Infocert ID](https://identity.infocert.it/metadata/metadata.xml)
+- [Intesa ID](https://spid.intesa.it/metadata/metadata.xml)
 - [Namirial ID](https://idp.namirialtsp.com/idp/metadata)
 - [Poste ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
 - [Sielte ID](https://identity.sieltecloud.it/simplesaml/metadata.xml)

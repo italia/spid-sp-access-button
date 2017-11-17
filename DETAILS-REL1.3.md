@@ -27,8 +27,8 @@
 
 #### Download immagini Aruba ID
 ```
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-arubaid.svg
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/img/spid-idp-arubaid.png
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-arubaid.svg
+https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-arubaid.png
 ```
 
 
