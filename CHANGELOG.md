@@ -1,5 +1,6 @@
 ### v1.5 (17/11/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.5.md)
 - Aggiunto Intesa ID
+- Aggiunto pulsante SPID da utilizzare in produzione e quello da utilizzare in sviluppo
 
 ### v1.4 (26/06/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.4.md)
 - Aggiunto Namirial ID

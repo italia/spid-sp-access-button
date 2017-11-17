@@ -5,8 +5,10 @@ Per gestire l’accesso ai servizi pubblici e privati che utilizzano il sistema 
 
 
 ## SPID Sp Access Button
-Il bottone è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server.
+Il pulsante è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server.
 La pagina di accesso dovrà essere "mobile first" e utilizzabile su ogni tipologia di dispositivo.
+
+Il pulsante è disponibile nella versione da utilizzare in produzione (production) e nella versione da utilizzare in sviluppo (development).
 
 Il sistema richiede Jquery 1.8+.
 
@@ -74,6 +76,7 @@ spid-sp-access-button/
 
 ### v1.5 (17/11/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.5.md)
 - Aggiunto Intesa ID
+- Aggiunto pulsante SPID da utilizzare in produzione e quello da utilizzare in sviluppo
 
 ### v1.4 (26/06/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.4.md)
 - Aggiunto Namirial ID
@@ -89,7 +92,7 @@ spid-sp-access-button/
 - Correzione link su dropdown
 
 ### v1.1 (01/04/2016)
-- Correzione css per compatibilità bottone
+- Correzione css per compatibilità pulsante
 - Modifica loghi POSTE ID e TIM ID
 
 ### v1.0 (01/04/2016)
