@@ -111,3 +111,27 @@ spid-sp-access-button/
 - [Sielte ID](https://identity.sieltecloud.it/simplesaml/metadata.xml)
 - [SPIDItalia Register.it](https://spid.register.it/login/metadata)
 - [Tim ID](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
+
+## Licenze di componenti di terze parti
+
+Il font Titillium in [`css/spid-sp-access-button.min.css`](./src/css/spid-sp-access-button.min.css#L1) è di [Accademia di Belle Arti Urbino](http://www.campivisivi.net/titillium/) con licenza [SIL Open Font License 1.1](http://scripts.sil.org/OFL)
+
+Il file [`js/jquery.min.js`](./src/js/jquery.min.js) è di [The jQuery Foundation](https://jquery.com/), copyright The jQuery Foundation, con licenza [MIT](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
+
+Parti del codice in [`css/spid-sp-access-button.min.css`](./src/css/spid-sp-access-button.min.css) e [`js/spid-sp-access-button.min.js`](./src/js/spid-sp-access-button.min.js) sono del progetto jQuery Bootstrap-style Dropdowns di [A Beautiful Site, LLC](http://abeautifulsite.net/) con licenza [MIT](https://github.com/claviska/jquery-dropdown).
+
+I loghi dei servizi degli Identity Provider sono marchi registrati dalle rispettive aziende.
+
+Il logo SPID è un marchio registrato da parte di AgID, Agenzia per l'Italia Digitale della Presidenza del Consiglio dei Ministri.
+
+#### Licenza MIT:
+
+```
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
