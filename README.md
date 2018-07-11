@@ -1,5 +1,7 @@
 # SPID - Sistema Pubblico di Identità Digitale
 
+## SPID Smart Button è in fase di sviluppo e a breve sostituirà lo SPID SP Access Button
+
 ## Componenti
 Per gestire l’accesso ai servizi pubblici e privati che utilizzano il sistema SPID, si rende necessario, sia per una questione di user experience che di immagine del sistema, la standardizzazione delle interfacce, della comunicazione e dell’utilizzo del logo SPID.
 
