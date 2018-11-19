@@ -33,6 +33,8 @@ spid-sp-access-button/
 │   │   │   ├── spid-idp-infocertid.svg
 │   │   │   ├── spid-idp-intesaid.png
 │   │   │   ├── spid-idp-intesaid.svg
+│   │   │   ├── spid-idp-lepidaid.png
+│   │   │   ├── spid-idp-lepidaid.svg
 │   │   │   ├── spid-idp-namirialid.png
 │   │   │   ├── spid-idp-namirialid.svg
 │   │   │   ├── spid-idp-posteid.png
@@ -59,6 +61,8 @@ spid-sp-access-button/
 │   │   │   ├── spid-idp-infocertid.svg
 │   │   │   ├── spid-idp-intesaid.png
 │   │   │   ├── spid-idp-intesaid.svg
+│   │   │   ├── spid-idp-lepidaid.png
+│   │   │   ├── spid-idp-lepidaid.svg
 │   │   │   ├── spid-idp-namirialid.png
 │   │   │   ├── spid-idp-namirialid.svg
 │   │   │   ├── spid-idp-posteid.png
@@ -75,6 +79,10 @@ spid-sp-access-button/
 ```
 
 ## Aggiornamenti
+
+### v1.6 (19/11/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.6.md)
+- Aggiunto Lepida ID
+- Aggiunto pulsante SPID da utilizzare in produzione e quello da utilizzare in sviluppo
 
 ### v1.5 (17/11/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.5.md)
 - Aggiunto Intesa ID
@@ -108,6 +116,7 @@ spid-sp-access-button/
 - [Aruba ID](https://loginspid.aruba.it/metadata)
 - [Infocert ID](https://identity.infocert.it/metadata/metadata.xml)
 - [Intesa ID](https://spid.intesa.it/metadata/metadata.xml)
+- [Lepida ID](https://id.lepida.it/idp/shibboleth)
 - [Namirial ID](https://idp.namirialtsp.com/idp/metadata)
 - [Poste ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
 - [Sielte ID](https://identity.sieltecloud.it/simplesaml/metadata.xml)
