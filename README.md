@@ -48,7 +48,7 @@ spid-sp-access-button/
 │   │   ├── js
 │   │   │   ├── jquery.min.js
 │   │   │   ├── spid-sp-access-button.min.js
-│   ├── development
+│   ├── production
 │   │   ├── spid-sp-access-button.html
 │   │   ├── css
 │   │   │   ├── spid-sp-access-button.min.css
