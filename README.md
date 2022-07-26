@@ -43,6 +43,8 @@ spid-sp-access-button/
 │   │   │   ├── spid-idp-sielteid.svg
 │   │   │   ├── spid-idp-spiditalia.png
 │   │   │   ├── spid-idp-spiditalia.svg
+│   │   │   ├── spid-idp-teamsystemid.png
+│   │   │   ├── spid-idp-teamsystemid.svg
 │   │   │   ├── spid-idp-timid.png
 │   │   │   ├── spid-idp-timid.svg
 │   │   ├── js
@@ -71,6 +73,8 @@ spid-sp-access-button/
 │   │   │   ├── spid-idp-sielteid.svg
 │   │   │   ├── spid-idp-spiditalia.png
 │   │   │   ├── spid-idp-spiditalia.svg
+│   │   │   ├── spid-idp-teamsystemid.png
+│   │   │   ├── spid-idp-teamsystemid.svg
 │   │   │   ├── spid-idp-timid.png
 │   │   │   ├── spid-idp-timid.svg
 │   │   ├── js
@@ -79,6 +83,10 @@ spid-sp-access-button/
 ```
 
 ## Aggiornamenti
+
+### v1.7 (15/07/2022) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.7.md)
+- Aggiunto TeamSystem ID
+- Aggiunto pulsante SPID da utilizzare in produzione e quello da utilizzare in sviluppo
 
 ### v1.6 (19/11/2017) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.6.md)
 - Aggiunto Lepida ID
@@ -121,4 +129,5 @@ spid-sp-access-button/
 - [Poste ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
 - [Sielte ID](https://identity.sieltecloud.it/simplesaml/metadata.xml)
 - [SPIDItalia Register.it](https://spid.register.it/login/metadata)
+- [TeamSystem ID](https://spid.teamsystem.com/idp)
 - [Tim ID](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
