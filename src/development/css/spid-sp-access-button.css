@@ -11,7 +11,7 @@ Per poter arrivare allo stesso risultato potete usare CyberChef con la funzione
 
 */
 
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600);
+@import url(titillium.css);
 .italia-it-button {
     display: inline-block;
     position: relative;
