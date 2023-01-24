@@ -1,25 +1,56 @@
 # SPID - Sistema Pubblico di Identità Digitale
 
-## Aggiornamento IDP TeamSystem ID
+## Aggiornamento - creazione lista dinamica degli IDP
 
-#### Versione GET
-##### Aggiungere all'elenco IDP dentro il tag <ul id="spid-idp-list-small-root-get"...
+#### Aggiornamento della pagna HTML di esempio
+
+Rimozione dello scipt di ordinamento
+Rimozione delle lista statica degli IDP ed aggiunta dei bottoni con placeholder per lista dinamica
+
+es. versione GET
 ```
-<li class="spid-idp-button-link" data-idp="teamsystemid">
-	<a href="#"><span class="spid-sr-only">TeamSystem ID</span><img src="img/spid-idp-teamsystemid.svg" onerror="this.src='img/spid-idp-teamsystemid.png'; this.onerror=null;" alt="TeamSystem ID" /></a>
-</li>
+    <a href="#" class="italia-it-button italia-it-button-size-m button-spid" spid-idp-button="#spid-idp-button-medium-get" aria-haspopup="true" aria-expanded="false">
+        <span class="italia-it-button-icon"><img src="img/spid-ico-circle-bb.svg" onerror="this.src='img/spid-ico-circle-bb.png'; this.onerror=null;" alt="" /></span>
+        <span class="italia-it-button-text">Entra con SPID</span>
+    </a>
+    <div id="spid-idp-button-medium-get" class="spid-idp-button spid-idp-button-tip spid-idp-button-relative">
+        <ul id="spid-idp-list-medium-root-get" class="spid-idp-button-menu" data-spid-remote aria-labelledby="spid-idp">
+            <li><a class="dropdown-item" href="https://www.spid.gov.it">Maggiori informazioni</a></li>
+            <li><a class="dropdown-item" href="https://www.spid.gov.it/richiedi-spid">Non hai SPID?</a></li>
+            <li><a class="dropdown-item" href="https://www.spid.gov.it/serve-aiuto">Serve aiuto?</a></li>
+        </ul>
+    </div>
 ```
 
-#### Versione POST
-##### Aggiungere all'elenco IDP dentro il tag <ul id="spid-idp-list-medium-root-post"...
+
+es. versione POST
 ```
-<li class="spid-idp-button-link" data-idp="teamsystemid">
-	<button class="idp-button-idp-logo" name="teamsystem_id" type="submit"><span class="spid-sr-only">TeamSystem ID</span><img class="spid-idp-button-logo" src="img/spid-idp-teamsystemid.svg" onerror="this.src='img/spid-idp-teamsystemid.png'; this.onerror=null;" alt="TeamSystem ID" /></button>
-</li>
+    <form name="spid_idp_access" action="#" method="post">
+        <input type="hidden" name="param_001" value="" />
+        <input type="hidden" name="param_002" value="" />
+        <input type="hidden" name="param_003" value="" />
+        <a href="#" class="italia-it-button italia-it-button-size-m button-spid" spid-idp-button="#spid-idp-button-medium-post" aria-haspopup="true" aria-expanded="false">
+            <span class="italia-it-button-icon"><img src="img/spid-ico-circle-bb.svg" onerror="this.src='img/spid-ico-circle-bb.png'; this.onerror=null;" alt="" /></span>
+            <span class="italia-it-button-text">Entra con SPID</span>
+        </a>
+        <div id="spid-idp-button-medium-post" class="spid-idp-button spid-idp-button-tip spid-idp-button-relative">
+            <ul id="spid-idp-list-medium-root-post" class="spid-idp-button-menu"  data-spid-remote aria-labelledby="spid-idp">
+            </ul>
+                <li><a class="dropdown-item" href="https://www.spid.gov.it">Maggiori informazioni</a></li>
+                <li><a class="dropdown-item" href="https://www.spid.gov.it/richiedi-spid">Non hai SPID?</a></li>
+                <li><a class="dropdown-item" href="https://www.spid.gov.it/serve-aiuto">Serve aiuto?</a></li>
+            </div>
+    </form>
 ```
 
-#### Download immagini TeamSystem ID
-```
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-teamsystemid.svg
-https://github.com/italia-it/spid-sp-access-button/blob/master/src/production/img/spid-idp-teamsystemid.png
-```
+#### Aggiunta dello script spid-idps.js
+
+Aggiunto lo script che crea l'elemento <li> dinamicamente leggendo un file JSON da una URL oppure da una lista pre-impostata in caso di problemi nel dowload del JSON.
+
+
+
+
+#### Crediti
+
+Il sistema di importazione degli IDPS è ripreso dal progetto [Satosa-Saml2SPID](https://github.com/italia/Satosa-Saml2Spid/)
+
