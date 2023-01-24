@@ -6,10 +6,13 @@ Per gestire l’accesso ai servizi pubblici e privati che utilizzano il sistema 
 
 ## SPID Sp Access Button
 Il pulsante è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). 
+
 La lista degli IDP è collezionata da una sorgente remota (Registry AgID https://registry.spid.gov.it/entities-idp) e i diversi IDP sono mostrati in ordine random attraverso una funzione javascript.
+
 La pagina di accesso dovrà essere "mobile first" e utilizzabile su ogni tipologia di dispositivo.
 
-Nel progetto è disponibile una pagina di esempio 
+Nel progetto è disponibile una pagina di esempio (src/spid-sp-access-button.html)
+
 Il sistema richiede Jquery 1.8+.
 
 
