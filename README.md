@@ -5,82 +5,22 @@ Per gestire l’accesso ai servizi pubblici e privati che utilizzano il sistema 
 
 
 ## SPID Sp Access Button
-Il pulsante è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). I diversi IDP sono mostrati in ordine random attraverso una piccola funzione javascript che potrebbe essere sostituita attraverso una procedura di randomizzazione lato server.
+Il pulsante è disponibile in 4 dimensioni (s / m / l / xl) ed in formato “get” (chiamata ad una pagina esterna) e “post” (form interna al pulsante). 
+
+La lista degli IDP è collezionata da una sorgente remota (Registry AgID https://registry.spid.gov.it/entities-idp) e i diversi IDP sono mostrati in ordine random attraverso una funzione javascript.
+
 La pagina di accesso dovrà essere "mobile first" e utilizzabile su ogni tipologia di dispositivo.
 
-Il pulsante è disponibile nella versione da utilizzare in produzione (production) e nella versione da utilizzare in sviluppo (development).
+Nel progetto è disponibile una pagina di esempio (src/spid-sp-access-button.html)
 
 Il sistema richiede Jquery 1.8+.
 
 
-## Struttura del file system
-```
-spid-sp-access-button/
-│
-├── src/
-│   ├── development
-│   │   ├── spid-sp-access-button.html
-│   │   ├── css
-│   │   │   ├── spid-sp-access-button.min.css
-│   │   ├── img
-│   │   │   ├── spid-ico-circle-bb.png
-│   │   │   ├── spid-ico-circle-bb.svg
-│   │   │   ├── spid-idp-arubaid.png
-│   │   │   ├── spid-idp-arubaid.svg
-│   │   │   ├── spid-idp-infocertid.png
-│   │   │   ├── spid-idp-infocertid.svg
-│   │   │   ├── spid-idp-intesaid.png
-│   │   │   ├── spid-idp-intesaid.svg
-│   │   │   ├── spid-idp-lepidaid.png
-│   │   │   ├── spid-idp-lepidaid.svg
-│   │   │   ├── spid-idp-namirialid.png
-│   │   │   ├── spid-idp-namirialid.svg
-│   │   │   ├── spid-idp-posteid.png
-│   │   │   ├── spid-idp-posteid.svg
-│   │   │   ├── spid-idp-sielteid.png
-│   │   │   ├── spid-idp-sielteid.svg
-│   │   │   ├── spid-idp-spiditalia.png
-│   │   │   ├── spid-idp-spiditalia.svg
-│   │   │   ├── spid-idp-teamsystemid.png
-│   │   │   ├── spid-idp-teamsystemid.svg
-│   │   │   ├── spid-idp-timid.png
-│   │   │   ├── spid-idp-timid.svg
-│   │   ├── js
-│   │   │   ├── jquery.min.js
-│   │   │   ├── spid-sp-access-button.min.js
-│   ├── production
-│   │   ├── spid-sp-access-button.html
-│   │   ├── css
-│   │   │   ├── spid-sp-access-button.min.css
-│   │   ├── img
-│   │   │   ├── spid-ico-circle-bb.png
-│   │   │   ├── spid-ico-circle-bb.svg
-│   │   │   ├── spid-idp-arubaid.png
-│   │   │   ├── spid-idp-arubaid.svg
-│   │   │   ├── spid-idp-infocertid.png
-│   │   │   ├── spid-idp-infocertid.svg
-│   │   │   ├── spid-idp-intesaid.png
-│   │   │   ├── spid-idp-intesaid.svg
-│   │   │   ├── spid-idp-lepidaid.png
-│   │   │   ├── spid-idp-lepidaid.svg
-│   │   │   ├── spid-idp-namirialid.png
-│   │   │   ├── spid-idp-namirialid.svg
-│   │   │   ├── spid-idp-posteid.png
-│   │   │   ├── spid-idp-posteid.svg
-│   │   │   ├── spid-idp-sielteid.png
-│   │   │   ├── spid-idp-sielteid.svg
-│   │   │   ├── spid-idp-spiditalia.png
-│   │   │   ├── spid-idp-spiditalia.svg
-│   │   │   ├── spid-idp-teamsystemid.png
-│   │   │   ├── spid-idp-teamsystemid.svg
-│   │   │   ├── spid-idp-timid.png
-│   │   │   ├── spid-idp-timid.svg
-│   │   ├── js
-│   │   │   ├── jquery.min.js
-│   │   │   ├── spid-sp-access-button.min.js
-```
-
 ## Aggiornamenti
+
+### v1.8 (26/01/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.8.md)
+- Rimossa struttura directory obsoleta "development"
+- Creazione dinamica lista IDP 
 
 ### v1.7 (15/07/2022) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.7.md)
 - Aggiunto TeamSystem ID
@@ -116,7 +56,7 @@ spid-sp-access-button/
 
 ## Metadata IDP SPID
 ### Metadata con tutti gli IDP SPID
-- [IDP SPID](https://registry.spid.gov.it/metadata/idp/spid-entities-idps.xml)
+- [IDP SPID](https://registry.spid.gov.it/entities?entity_type=idp)
 
 ### Metadata singoli IDP SPID
 - [Aruba ID](https://loginspid.aruba.it/metadata)
