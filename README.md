@@ -20,7 +20,7 @@ Il sistema richiede Jquery 1.8+.
 
 ### v1.10 (30/05/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.10.md)
 - Aggiornato logo Infocert
-- 
+
 ### v1.9 (17/02/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.9.md)
 - Aggiornato logo Etna
 
