@@ -18,8 +18,11 @@ Il sistema richiede Jquery 1.8+.
 
 ## Aggiornamenti
 
-### v1.9 (26/05/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.9.md)
+### v1.10 (30/05/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.10.md)
 - Aggiornato logo Infocert
+- 
+### v1.9 (17/02/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.9.md)
+- Aggiornato logo Etna
 
 ### v1.8 (26/01/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.8.md)
 - Rimossa struttura directory obsoleta "development"
