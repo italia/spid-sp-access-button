@@ -48,5 +48,10 @@
 		"organization_name": "TeamSystem s.p.a.",
 		"entity_id": "https://spid.teamsystem.com/idp",
 		"logo_uri": "img/spid-idp-teamsystemid.svg"
+	},
+	{
+		"organization_name": "Intesi Group S.p.A.",
+		"entity_id": "https://idp.intesigroup.com",
+		"logo_uri": "img/spid-idp-intesigroupspid.svg"
 	}
 ]

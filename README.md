@@ -18,6 +18,9 @@ Il sistema richiede Jquery 1.8+.
 
 ## Aggiornamenti
 
+### v1.11 (03/07/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.11.md)
+- Aggiunto Intesi Group
+
 ### v1.10 (30/05/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.10.md)
 - Aggiornato logo Infocert
 
