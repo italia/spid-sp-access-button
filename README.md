@@ -65,12 +65,14 @@ Il sistema richiede Jquery 1.8+.
 
 ## Metadata IDP SPID
 ### Metadata con tutti gli IDP SPID
-- [IDP SPID](https://registry.spid.gov.it/entities?entity_type=idp)
+- [Identity Provider Accreditati](https://www.agid.gov.it/it/piattaforme/spid/identity-provider-accreditati)
+- [IDP SPID (in formato XML)](https://registry.spid.gov.it/entities?entity_type=idp)
+- [IDP SPID (in formato JSON)](https://registry.spid.gov.it/entities-idp?&output=json)
 
 ### Metadata singoli IDP SPID
 - [Aruba ID](https://loginspid.aruba.it/metadata)
 - [Infocert ID](https://identity.infocert.it/metadata/metadata.xml)
-- [Intesa ID](https://spid.intesa.it/metadata/metadata.xml)
+- [Intesa ID](https://spid.intesa.it/metadata/metadata.xml) - [cessato il 23/04/2023](https://www.agid.gov.it/it/piattaforme/soggetti-accreditati/intesa-spa-cessato-il-23042023)
 - [Lepida ID](https://id.lepida.it/idp/shibboleth)
 - [Namirial ID](https://idp.namirialtsp.com/idp/metadata)
 - [Poste ID](http://posteid.poste.it/jod-fs/metadata/metadata.xml)
@@ -78,3 +80,6 @@ Il sistema richiede Jquery 1.8+.
 - [SPIDItalia Register.it](https://spid.register.it/login/metadata)
 - [TeamSystem ID](https://spid.teamsystem.com/idp)
 - [Tim ID](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
+- [Etna ID](https://id.eht.eu/metadata.xml)
+- [InfoCamere ID](https://loginspid.infocamere.it/metadata)
+- [Intesi ID](https://spid.intesigroup.com/metadata/metadata.xml)
