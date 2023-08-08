@@ -80,3 +80,6 @@ Il sistema richiede Jquery 1.8+.
 - [SPIDItalia Register.it](https://spid.register.it/login/metadata)
 - [TeamSystem ID](https://spid.teamsystem.com/idp)
 - [Tim ID](https://login.id.tim.it/spid-services/MetadataBrowser/idp)
+- [Etna ID](https://id.eht.eu/metadata.xml)
+- [InfoCamere ID](https://loginspid.infocamere.it/metadata)
+- [Intesi ID](https://spid.intesigroup.com/metadata/metadata.xml)
