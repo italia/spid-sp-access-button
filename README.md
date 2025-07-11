@@ -18,6 +18,9 @@ Il sistema richiede Jquery 1.8+.
 
 ## Aggiornamenti
 
+### v1.12 (11/07/2025) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.12.md)
+- Aggiornato logo Lepida
+
 ### v1.11 (03/07/2023) - [Accedi ai dettagli delle modifiche](DETAILS-REL1.11.md)
 - Aggiunto Intesi Group
 
